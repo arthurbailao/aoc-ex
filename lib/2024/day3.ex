@@ -36,11 +36,6 @@ defmodule AocEx.Year2024.Day3 do
     end)
     |> advanced_calc()
     |> elem(2)
-
-    # |> Enum.map(&advanced_calc/1)
-    # |> Enum.map(&dbg/1)
-    # |> Enum.map(&elem(&1, 2))
-    # |> Enum.sum()
   end
 
   defp parse_input(input) do
