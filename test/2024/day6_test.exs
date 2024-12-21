@@ -1,0 +1,23 @@
+defmodule AocEx.Year2024.Day6Test do
+  use ExUnit.Case
+  doctest AocEx
+
+  test "sixth day" do
+    input =
+      """
+      ....#.....
+      .........#
+      ..........
+      ..#.......
+      .......#..
+      ..........
+      .#..^.....
+      ........#.
+      #.........
+      ......#...
+      """
+
+    assert AocEx.Year2024.Day6.first(input) == 41
+    assert AocEx.Year2024.Day6.second(input) == 6
+  end
+end
